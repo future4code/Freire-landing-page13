@@ -17,7 +17,7 @@ a {
 }
 
 .sobre0, .sobre-cartao {
-    color: white;
+    color: #ffffff;
 }
 
 .sobre-img {
@@ -35,7 +35,7 @@ a {
 }
 
 .sobre0 {
-    background-color: #ffa159;
+    background-color: #ff914d;
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -58,23 +58,23 @@ a {
 }
 
 .sobre-cartao {
-    background-color: #ffa159;
+    background-color: #ff914d;
     flex-direction: row-reverse;
 }
 .sobre-cartao a {
-    color: white;
+    color: #ffffff;
     padding: 1rem;
 }
 .sobre-cartao a:hover, .sobre-cartao a:focus {
     text-decoration: underline;
 }
 .sobre-cartao a:active {
-    color: black;
+    color: #000000;
     text-decoration: underline;
 }
 
 .sobre-banco a ,.sobre-suporte a {
-    color: #ffa159;
+    color: #ff914d;
     margin-top: 1rem;
     padding: 1rem;
 }
@@ -82,6 +82,6 @@ a {
     text-decoration: underline;
 }
 .sobre-banco a:active, .sobre-suporte a:active {
-    color: black;
+    color: #000000;
     text-decoration: underline;
 }
