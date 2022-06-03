@@ -44,6 +44,10 @@ a {
     text-align: center;
 }
 
+.sobre0>p {
+    margin-top: 1rem;
+}
+
 .sobre0>h2 {
     margin: 2rem 0;
     font-size: 4rem;
@@ -84,4 +88,34 @@ a {
 .sobre-banco a:active, .sobre-suporte a:active {
     color: #000000;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .sobre-banco, .sobre-cartao,.sobre-suporte, .sobre0 {
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+
+    .sobre0 {
+        flex-direction: column;
+    }
+
+    .sobre0 {
+        padding-bottom: 2rem;
+    }
+
+    .sobre0>p {
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .sobre-descricao {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .sobre-img {
+        width: 100%;
+        padding: 2rem 0;
+    }
 }
