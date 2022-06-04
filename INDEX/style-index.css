@@ -1,21 +1,11 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    -webkit-font-smoothing: antialiased;
-    appearance: none;
-    text-size-adjust: 100%;
     border: 0px;
     font-weight: inherit;
     outline: 0px;
     padding: 0px;
-    text-rendering: optimizelegibility;
-}
-
-body {
     font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-
 }
-
 
 .fundo {
     display: flex;
@@ -30,21 +20,21 @@ body {
 }
 
 
-ul {
+ul.menu-superior {
     display: flex;
+    width: 100vw;
+    height: 100px;
     margin: 25px;
     padding: 0;
     text-align: center;
     align-items: center;
-
-
 }
 
-.menu {
+.menu-superior {
     display: flex;
 }
 
-li {
+li.menu2 {
     display: flex;
     list-style: armenian;
     margin: 10px;
@@ -55,54 +45,64 @@ li {
 
 }
 
-li a {
+li.menu2 a {
     padding: 5px 10px;
     margin: 0;
     text-decoration: none;
-    color: orange;
+    color: #ff914d;
 
 }
 
-li a:hover {
+li.menu2 a:hover {
 
-    color: lightgray;
+    color: #0277bd;
 
 }
 
 .secao1 {
     display: flex;
-    background-color: orange;
+    background-color: white;
     width: 100vw;
     height: 40vh;
-   
+
 }
 
 
 .descricao {
     display: flex;
-    color: white;
-    display: flex;
+    color: #ff914d;
     margin: 20px;
     width: 90%;
-    
+
 }
 
 h1 {
-    color: white;
+    display: flex;
+    color: #ff914d;
     font-size: 1.5rem;
     margin-left: 10px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.tradicao{
+
+    font-size: 36px;
 }
 
 h2 {
-    color: white;
+    display: flex;
+    color: #ff914d;
     display: flex;
     margin: 0 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.card{
+.card {
     display: flex;
     width: 50%;
-    height: 100%;
+    height: 90%;
     background-color: white;
     justify-self: end;
     align-content: space-around;
@@ -110,9 +110,166 @@ h2 {
 
 }
 
-.secao2{
-    background-color: black;
+.secao2 {
+    display: flex;
+    background-color: #ff914d;
+    background-image: linear-gradient(to right, #ff914d, #a1b7c2);
     width: 100vw;
     height: 40vh;
-    flex-direction: row-reverse;
+    flex-direction: row;
+
+}
+
+.imagem {
+
+    display: flex;
+    margin: 0px;
+    width: 50vh;
+    height: 40vh;
+}
+
+.escolha{
+    font-size: 18px;
+}
+
+.venha {
+    color: #0277bd;
+    font-size: 30px;
+    width: 70vw;
+    height: 11vh;
+    display: flex;
+    margin: 0px 13px;
+    margin: 0px 0% 0 0;
+    justify-content: flex-end;
+
+}
+
+.secao2-direita {
+    color: #0277bd;
+    width: 59vw;
+    height: 10vh;
+    display: flex;
+    margin: 0 10px;
+    margin: 0 20% 0 0;
+    font-size: 2.0rem;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.abra-conta {
+    display: flex;
+    font-size: 20px;
+    margin-top: 15%;
+    width: 53vw;
+    color: #0277bd;
+    text-decoration: double;
+    justify-content: flex-start;
+
+}
+
+.menu-inferior {
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-around;
+}
+
+.rodape {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    height: 40vh;
+    align-items: center;
+    background-color: #ff914d;
+    color: #ffffff;
+}
+
+.rodape-lista {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.lista-titulo {
+    font-size: 1.5rem;
+}
+
+.rodape-lista li {
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.rodape-lista a:hover,
+.rodape-lista a:focus {
+    color: black;
+}
+
+.rodape2 {
+    display: flex;
+    height: 6rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #ff914d;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    background-image: linear-gradient(to right, #ff914d, #a1b7c2);
+    width: 100vw;
+}
+
+.redes-sociais {
+    display: flex;
+    width: 100vw;
+}
+
+.rodape2 img {
+    width: 3rem;
+    height: 100%;
+    margin: 0 1rem;
+    width: 100vw;
+    
+}
+
+#f4bank-logo {
+    height: 100%;
+    width: 10rem;
+    justify-self: flex-end;
+}
+
+@media screen and (max-width: 480px) {
+    .rodape {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 1rem 0;
+        font-size: 1.4rem;
+    }
+
+    .rodape-lista {
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+
+    .rodape2 {
+        padding: 0;
+    }
+
+    .rodape2 img {
+        width: 2rem;
+    }
+
+    .rodape2 p {
+        text-align: center;
+    }
+
+    #f4bank-logo {
+        order: -1;
+        margin: 0;
+        width: 6rem;
+    }
+
+    .redes-sociais {
+        height: 100%;
+    }
 }
