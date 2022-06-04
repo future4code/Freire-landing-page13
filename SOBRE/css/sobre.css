@@ -85,6 +85,7 @@ sobre{
 .sobre-img {
     width: 80%;
     height: 80%;
+    border-radius: 5px;
 }
 
 .sobre-descricao {
@@ -141,6 +142,7 @@ sobre{
 .sobre-cartao a:hover,
 .sobre-cartao a:focus {
     text-decoration: underline;
+    color: #0277bd;
 }
 
 .sobre-cartao a:active {
@@ -161,6 +163,7 @@ sobre{
 .sobre-suporte a:hover,
 .sobre-suporte a:focus {
     text-decoration: underline;
+    color: #0277bd;
 }
 
 .sobre-banco a:active,
@@ -197,8 +200,9 @@ sobre{
         padding: 0 2rem;
     }
 
-    .sobre-img {
-        width: 100%;
+    .sobre img {
         padding: 2rem 0;
+        width: 100vw;
+        height: 100%;
     }
 }
