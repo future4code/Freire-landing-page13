@@ -1,0 +1,48 @@
+.fundo {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+
+.Menu-lista {
+    display: flex;
+    margin: 25px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+.Menu-lista-item {
+    display: flex;
+    list-style: armenian;
+    margin: 10px;
+    display: inline;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 0px 34px;
+
+}
+
+.Menu-lista-item a {
+    padding: 5px 10px;
+    margin: 0;
+    text-decoration: none;
+    color: orange;
+
+}
+
+.Menu-lista-item a:hover {
+
+    color: lightgray;
+
+}
