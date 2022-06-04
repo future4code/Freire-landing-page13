@@ -123,6 +123,11 @@ sobre{
     width: 50%;
 }
 
+.sobre-banco,
+.sobre-suporte {
+    background-color: #ffffff;
+}
+
 .sobre-cartao {
     background-color: #ff914d;
     flex-direction: row-reverse;

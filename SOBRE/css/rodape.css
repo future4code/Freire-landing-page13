@@ -8,6 +8,12 @@
     color: #ffffff;
 }
 
+.rodape a {
+    color: inherit;
+}
+
+/* #0277bd Azul*/
+
 .rodape-lista {
     text-decoration: none;
     list-style-type: none;
