@@ -9,15 +9,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   
 
 }
 .container-A > div.container01 {
     background-color: rgba(226, 43, 43, 0.507);
     margin: 3px;
     border: 1px solid black;
-    width: 50%;
-
+    width:50% ;
 }
+
 .container-A > div.container02 {
     background-color:  rgba(208, 241, 15, 0.534);
     margin: 3px;
@@ -38,11 +39,14 @@
     background-color: rgb(245, 245, 245);
     margin: 3px;
     border: 1px solid black;
+    width: 50%;
+    height: 600px;
 
 }
 .container-B > div.container04 {
     background-color: rgba(13, 163, 46, 0.514);
     margin: 3px;
     border: 1px solid black;
+    width: 50%;
 
 }
