@@ -55,7 +55,7 @@ li.menu2 a {
 
 li.menu2 a:hover {
 
-    color: blue;
+    color: #0277bd;
 
 }
 
@@ -71,7 +71,6 @@ li.menu2 a:hover {
 .descricao {
     display: flex;
     color: #ff914d;
-    display: flex;
     margin: 20px;
     width: 90%;
 
@@ -84,6 +83,11 @@ h1 {
     margin-left: 10px;
     padding-bottom: 30px;
     padding-top: 20px;
+}
+
+.tradicao{
+
+    font-size: 36px;
 }
 
 h2 {
@@ -124,8 +128,13 @@ h2 {
     height: 40vh;
 }
 
+.escolha{
+    font-size: 18px;
+}
+
 .venha {
-    color: blue;
+    color: #0277bd;
+    font-size: 30px;
     width: 70vw;
     height: 11vh;
     display: flex;
@@ -136,12 +145,13 @@ h2 {
 }
 
 .secao2-direita {
-    color: blue;
+    color: #0277bd;
     width: 59vw;
     height: 10vh;
     display: flex;
     margin: 0 10px;
     margin: 0 20% 0 0;
+    font-size: 2.0rem;
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
@@ -149,11 +159,12 @@ h2 {
 
 .abra-conta {
     display: flex;
-    margin-top: 10%;
-    width: 25vw;
-    color: blue;
+    font-size: 20px;
+    margin-top: 15%;
+    width: 53vw;
+    color: #0277bd;
     text-decoration: double;
-    justify-content: flex-end;
+    justify-content: flex-start;
 
 }
 
@@ -167,7 +178,7 @@ h2 {
 
 .rodape {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: space-around;
     height: 40vh;
     align-items: center;
@@ -203,16 +214,21 @@ h2 {
     background-color: #ff914d;
     color: #ffffff;
     border-top: 1px solid #ffffff;
+    background-image: linear-gradient(to right, #ff914d, #a1b7c2);
+    width: 100vw;
 }
 
 .redes-sociais {
     display: flex;
+    width: 100vw;
 }
 
 .rodape2 img {
     width: 3rem;
     height: 100%;
     margin: 0 1rem;
+    width: 100vw;
+    
 }
 
 #f4bank-logo {

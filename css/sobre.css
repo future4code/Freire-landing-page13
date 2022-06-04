@@ -3,20 +3,82 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.fundo {
+    display: flex;
+    width: 100vw;
+    height: 100px;
 }
 
-a {
-    color: inherit;
+.logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
 }
 
-.sobre-banco, .sobre-cartao,.sobre-suporte, .sobre0 {
+
+ul.menu-superior {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    margin: 25px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.menu-superior {
+    display: flex;
+}
+
+li.menu2 {
+    display: flex;
+    list-style: armenian;
+    margin: 10px;
+    display: inline;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 0px 34px;
+
+}
+
+li.menu2 a {
+    padding: 5px 10px;
+    margin: 0;
+    text-decoration: none;
+    color: #ff914d;
+
+}
+
+li.menu2 a:hover {
+
+    color: #0277bd;
+
+}
+
+sobre{
+    display: flex;
+    background-color: #ff914d;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.sobre-banco,
+.sobre-cartao,
+.sobre-suporte,
+.sobre0 {
     display: flex;
     height: 80vh;
     align-items: center;
+    display: flex;
+    background-color: #ff914d;
 
 }
 
-.sobre0, .sobre-cartao {
+.sobre0,
+.sobre-cartao {
     color: #ffffff;
 }
 
@@ -65,33 +127,48 @@ a {
     background-color: #ff914d;
     flex-direction: row-reverse;
 }
+
 .sobre-cartao a {
     color: #ffffff;
     padding: 1rem;
 }
-.sobre-cartao a:hover, .sobre-cartao a:focus {
+
+.sobre-cartao a:hover,
+.sobre-cartao a:focus {
     text-decoration: underline;
 }
+
 .sobre-cartao a:active {
     color: #000000;
     text-decoration: underline;
 }
 
-.sobre-banco a ,.sobre-suporte a {
+.sobre-banco a,
+.sobre-suporte a {
     color: #ff914d;
     margin-top: 1rem;
     padding: 1rem;
 }
-.sobre-banco a:hover, .sobre-banco a:focus, .sobre-suporte a:hover, .sobre-suporte a:focus  {
+
+.sobre-banco a:hover,
+.sobre-banco a:focus,
+.sobre-suporte a:hover,
+.sobre-suporte a:focus {
     text-decoration: underline;
 }
-.sobre-banco a:active, .sobre-suporte a:active {
+
+.sobre-banco a:active,
+.sobre-suporte a:active {
     color: #000000;
     text-decoration: underline;
 }
 
 @media screen and (max-width: 480px) {
-    .sobre-banco, .sobre-cartao,.sobre-suporte, .sobre0 {
+
+    .sobre-banco,
+    .sobre-cartao,
+    .sobre-suporte,
+    .sobre0 {
         height: auto;
         flex-direction: column-reverse;
         padding: 1rem;
