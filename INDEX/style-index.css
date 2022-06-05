@@ -1,37 +1,44 @@
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    border: 0px;
-    font-weight: inherit;
-    outline: 0px;
-    padding: 0px;
+    text-decoration: none;
     font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
 }
 
-.fundo {
-    display: flex;
+.menu-topo {
     width: 100vw;
+    height: 20vh;
+    margin: 0 0 0 0;
+}
+
+header > img{
+    width: 100px;
     height: 100px;
 }
 
 .logo {
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 100vw;
+    height: 20%;
+    margin-top: 5px;
+    justify-content: center;
 }
 
 
 ul.menu-superior {
     display: flex;
+    flex-grow: 1;
     width: 100vw;
-    height: 100px;
-    margin: 25px;
+    height: 100%;
+    margin: -75px 9px 0 90px;
     padding: 0;
-    text-align: center;
-    align-items: center;
-}
-
-.menu-superior {
-    display: flex;
+    text-align: start;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-inline-start: 0;
+    font-size: 12px;
 }
 
 li.menu2 {
@@ -41,7 +48,8 @@ li.menu2 {
     display: inline;
     font-size: 1.5rem;
     align-items: center;
-    padding: 0px 34px;
+    padding: 0;
+
 
 }
 
@@ -79,23 +87,21 @@ li.menu2 a:hover {
 h1 {
     display: flex;
     color: #ff914d;
-    font-size: 1.5rem;
-    margin-left: 10px;
+    margin-left: 35px;
+    margin-top: 50px;
     padding-bottom: 30px;
     padding-top: 20px;
-}
-
-.tradicao{
-
     font-size: 36px;
+    width: 70vw;
 }
+
 
 h2 {
     display: flex;
     color: #ff914d;
     display: flex;
-    margin: 0 10px;
-    padding-top: 30px;
+    margin: 5px 0 0 43px;
+    padding-top: 55px;
     padding-bottom: 30px;
 }
 
@@ -103,6 +109,7 @@ h2 {
     display: flex;
     width: 50%;
     height: 90%;
+    margin-top: 25px;
     background-color: white;
     justify-self: end;
     align-content: space-around;
@@ -128,43 +135,39 @@ h2 {
     height: 40vh;
 }
 
-.escolha{
-    font-size: 18px;
+.escolha {
+    font-size: 20px;
 }
 
 .venha {
     color: #0277bd;
     font-size: 30px;
-    width: 70vw;
+    width: 50%;
     height: 11vh;
     display: flex;
-    margin: 0px 13px;
-    margin: 0px 0% 0 0;
+    margin: 0 0 0 30%;
     justify-content: flex-end;
 
 }
 
 .secao2-direita {
     color: #0277bd;
-    width: 59vw;
-    height: 10vh;
     display: flex;
-    margin: 0 10px;
-    margin: 0 20% 0 0;
-    font-size: 2.0rem;
-    justify-content: flex-end;
+    margin-left: 10%;
+    justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .abra-conta {
     display: flex;
-    font-size: 20px;
+    font-size: 28px;
     margin-top: 15%;
     width: 53vw;
     color: #0277bd;
     text-decoration: double;
     justify-content: flex-start;
+    margin: 0 0 0 0;
 
 }
 
@@ -178,13 +181,19 @@ h2 {
 
 .rodape {
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: space-around;
     height: 40vh;
     align-items: center;
     background-color: #ff914d;
     color: #ffffff;
 }
+
+.rodape a {
+    color: inherit;
+}
+
+/* #0277bd Azul*/
 
 .rodape-lista {
     text-decoration: none;
@@ -214,21 +223,16 @@ h2 {
     background-color: #ff914d;
     color: #ffffff;
     border-top: 1px solid #ffffff;
-    background-image: linear-gradient(to right, #ff914d, #a1b7c2);
-    width: 100vw;
 }
 
 .redes-sociais {
     display: flex;
-    width: 100vw;
 }
 
 .rodape2 img {
     width: 3rem;
     height: 100%;
     margin: 0 1rem;
-    width: 100vw;
-    
 }
 
 #f4bank-logo {
@@ -238,38 +242,213 @@ h2 {
 }
 
 @media screen and (max-width: 480px) {
-    .rodape {
-        flex-direction: column;
-        height: auto;
-        align-items: flex-start;
-        padding: 1rem 0;
-        font-size: 1.4rem;
-    }
 
-    .rodape-lista {
-        padding: 1rem 2rem;
+    .menu-topo {
+        width: 100vw;
+        height: 10vh;
+    }
+    
+    .fundo {
+        display: flex;
         width: 100%;
-    }
-
-    .rodape2 {
-        padding: 0;
-    }
-
-    .rodape2 img {
-        width: 2rem;
-    }
-
-    .rodape2 p {
-        text-align: center;
-    }
-
-    #f4bank-logo {
-        order: -1;
-        margin: 0;
-        width: 6rem;
-    }
-
-    .redes-sociais {
         height: 100%;
+        justify-content: space-around;
     }
-}
+    header > img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .logo {
+        display: flex;
+        width: 1px;
+        height: 30%;
+        margin-top: 5px;
+        justify-content: center;
+    }
+    
+    
+    ul.menu-superior {
+        display: flex;
+        align-items: center;
+        margin: -60px 0 0 145px;
+        width: 91%;
+        justify-content: space-between;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    li.menu2 {
+        display: flex;
+        margin: 1px;
+        font-size: 0.8rem;
+        align-items: center;
+        padding: 0;
+    
+    
+    }
+    
+    li.menu2 a {
+        padding: 0px 10px;
+        margin: 0;
+        text-decoration: none;
+        color: #ff914d;
+    
+    }
+    
+    li.menu2 a:hover {
+    
+        color: #0277bd;
+    
+    }
+    
+    .secao1 {
+        display: flex;
+        background-color: white;
+        width: 100vw;
+        height: 20vh;
+    
+    }
+    
+    
+    .descricao {
+        display: flex;
+        color: #ff914d;
+        margin: 20px;
+        width: 90%;
+    
+    }
+    
+    h1 {
+        display: flex;
+        color: #ff914d;
+        margin-left: 1%;
+        margin-top: 2%;
+        padding-bottom: 14px;
+        padding-top: 20px;
+        font-size: 1.0rem;
+        width: 70vw;
+    }
+    
+    
+    h2 {
+        display: flex;
+        color: #ff914d;
+        display: flex;
+        margin: 5px 0 0 7px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+       
+    }
+    
+    .card {
+        display: flex;
+        width: 60%;
+        height: 76%;
+        margin-top: 1px;
+        justify-self: end;
+        align-content: space-around;
+        justify-content: space-around;
+        margin-left: -17px;
+    
+    }
+    
+    .secao2 {
+        display: flex;
+        background-color: #ff914d;
+        background-image: linear-gradient(to right, #ff914d, #a1b7c2);
+        width: 100vw;
+        height: 20vh;
+        flex-direction: row;
+    
+    }
+    
+    .imagem {
+    
+        display: flex;
+        margin: 0px;
+        width: 40%;
+        height: 85%;
+    }
+    
+    .escolha {
+        font-size: 0.7rem;
+    }
+    
+    .venha {
+        color: #0277bd;
+        font-size: 1rem;
+        width: 101%;
+        height: 8vh;
+        display: flex;
+        margin: 0 0 0 -25px;
+        justify-content: flex-end;
+        margin-top: 15px;
+    
+    }
+
+      
+    .secao2-direita {
+        color: #0277bd;
+        display: flex;
+        margin-left: 10%;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .abra-conta {
+        display: flex;
+        font-size: 18px;
+        width: 53vw;
+        color: #0277bd;
+        text-decoration: double;
+        justify-content: flex-start;
+       
+    
+    }
+    
+    .menu-inferior {
+        display: flex;
+        background-color: black;
+        width: 100vw;
+        height: 10vh;
+        justify-content: space-around;
+    }
+        .rodape {
+            flex-direction: column;
+            height: auto;
+            align-items: flex-start;
+            padding: 1rem 0;
+            font-size: 0.7rem;
+        }
+
+        .rodape-lista {
+            padding: 1rem 2rem;
+            width: 100%;
+        }
+
+        .rodape2 {
+            padding: 0;
+        }
+
+        .rodape2 img {
+            width: 2rem;
+        }
+
+        .rodape2 p {
+            text-align: center;
+        }
+
+        #f4bank-logo {
+            order: -1;
+            margin: 0;
+            width: 6rem;
+        }
+
+        .redes-sociais {
+            height: 100%;
+        }
+    }
+
+   
