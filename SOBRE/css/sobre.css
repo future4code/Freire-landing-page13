@@ -57,14 +57,6 @@ li.menu2 a:hover {
 
 }
 
-sobre{
-    display: flex;
-    background-color: #ff914d;
-    width: 100vw;
-    height: 100vh;
-
-}
-
 .sobre-banco,
 .sobre-cartao,
 .sobre-suporte,
@@ -74,12 +66,12 @@ sobre{
     align-items: center;
     display: flex;
     background-color: #ff914d;
-
 }
 
 .sobre0,
 .sobre-cartao {
     color: #ffffff;
+    background-image: linear-gradient(to bottom, #ff914d, #0277bd);
 }
 
 .sobre-img {
