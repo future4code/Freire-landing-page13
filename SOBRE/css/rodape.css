@@ -7,10 +7,12 @@
     background-color: #ff914d;
     color: #ffffff;
     background-image: linear-gradient(to top, #ff914d, #0277bd);
+    font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .rodape a {
     color: inherit;
+    text-decoration: none;
 }
 
 /* #0277bd Azul*/
