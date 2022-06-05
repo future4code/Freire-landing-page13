@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-A{
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+.container-A > div.container01 {
+    background-image: linear-gradient(to right, #098ae0, rgb(255, 255, 255));
+    margin: 3px;
+    width:50% ;
+}
+
+.container-A > div.container02 {
+    margin: 3px;
+    width:50% ;
+}
+
+.container-B {
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.986);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-B > div.container03 {
+    background-color: rgb(255, 255, 255);
+    margin: 3px;
+    width: 50%;
+
+}
+.container-B > div.container04 {
+    background-image: linear-gradient(to right, #ff914d, rgba(252, 248, 0, 0.568));
+    margin: 3px;
+    height:60%;
+    width: 40%;
+    border-radius: 15px;
+    text-align: center;
+
+    
+
+}
+
+.container-A > div.container01 h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-indent: 20px;
+    text-shadow: black 0.1em 0.1em 0.2em
+    
+}
+
+.container-A > div.container01{
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.container-B > div.container04{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+.imagem01 {
+    border-radius: 20px;
+}
+.imagem02 {
+    border-radius: 20px;
+}
+
+.aplicativos{
+    padding: 5%;
+}
+.botao {
+    background-color: #ffffff;
+    color:rgb(224, 139, 12);
+    padding: 3px;
+    border: none;
+}
+.botao:hover {
+    background-color: #ff914d;
+    color: #000000;
+}
