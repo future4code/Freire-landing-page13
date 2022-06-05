@@ -29,7 +29,7 @@
     display: inline;
     font-size: 1.5rem;
     align-items: center;
-    padding: 0px 34px;
+    padding: 0px 24px;
 
 }
 
@@ -43,6 +43,6 @@
 
 .Menu-lista-item a:hover {
 
-    color: lightgray;
+    color: #0277bd;
 
 }
