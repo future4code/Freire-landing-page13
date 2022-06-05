@@ -66,6 +66,7 @@ li.menu2 a:hover {
     color: #0277bd;
 
 }
+/* O ESTILO DO HEADER É ATÉ A LINHA DE CIMA*/
 
 .secao1 {
     display: flex;
@@ -211,7 +212,7 @@ h2 {
 
 .rodape-lista a:hover,
 .rodape-lista a:focus {
-    color: black;
+    color: #0277bd;
 }
 
 .rodape2 {
