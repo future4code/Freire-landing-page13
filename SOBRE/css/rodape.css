@@ -6,6 +6,7 @@
     align-items: center;
     background-color: #ff914d;
     color: #ffffff;
+    background-image: linear-gradient(to top, #ff914d, #0277bd);
 }
 
 .rodape a {
@@ -29,7 +30,7 @@
 }
 
 .rodape-lista a:hover, .rodape-lista a:focus {
-    color: black;
+    color: #0277bd;
 }
 
 .rodape2 {
