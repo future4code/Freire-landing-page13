@@ -87,6 +87,7 @@
     border-radius: 20px;
 }
 
+
 .aplicativos{
     padding: 5%;
 }
@@ -101,3 +102,9 @@
     color: #000000;
 }
 
+@media screen and (max-width: 480px) {
+    
+    #CPF {
+        width: 85%;
+    }
+}
