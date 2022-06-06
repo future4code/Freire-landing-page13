@@ -5,7 +5,6 @@
 - É possível navegar pelas seções do nosso site através do menu no CABEÇALHO
 - Ultilizando os links **PÁGINA INICIAL**, **CONTA 4BANK e CARTÃO 4BANK** e **SOBRE NÓS**
 - Com exceção dos links para redes sociais e lojas de apps, todos os outros links não são funcionais e vão redirecionar o usuário para a mesma página
-
 ### Link Surge 
 LINK DO SURGE PARA O PROJETO FINAL
 
